@@ -1,1 +1,32 @@
 /* Add your CSS styles here */
+/* Styles for the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Styles for table borders */
+table, th, td {
+  border: 1px solid black;
+}
+
+/* Style for the fixed first column */
+th:first-child, td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: white; /* Ensures the background color of the first column remains consistent */
+}
+
+/* Optional: Style for the header */
+th {
+  background-color: lightgray;
+  font-weight: bold;
+  text-align: left;
+  padding: 8px;
+}
+
+/* Optional: Style for table cells */
+td {
+  padding: 8px;
+}
