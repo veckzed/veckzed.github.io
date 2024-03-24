@@ -11,12 +11,11 @@ table, th, td {
   border: 1px solid black;
 }
 
-/* Style for the fixed first column */
-th:first-child, td:first-child {
+/* Style for the header */
+thead {
   position: sticky;
-  left: 0;
-  z-index: 1;
-  background-color: white; /* Ensures the background color of the first column remains consistent */
+  top: 0;
+  background-color: white;
 }
 
 /* Optional: Style for the header */
